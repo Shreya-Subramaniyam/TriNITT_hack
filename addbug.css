@@ -1,0 +1,44 @@
+
+.formdiv {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+/* .fas {
+
+} */
+
+form {
+    display: inline-block;
+    font-weight: bold;
+}
+
+input[type=text], select{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+input[type=submit] {
+    width: 50%;
+    text-align: center;
+    background-color: #3d83bd;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #31588a;
+    transform: scale(1.05);
+  }
